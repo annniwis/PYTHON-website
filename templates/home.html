@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UFT-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content=ie=edge">
+    <title> MI PRIMER WEB </title>
+    <!--BOOTSTRAP 4-->
+    <link rel= "stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity=""sha384-GJzZqFGwb1QTTN6WY59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWs"
+    crossorigin="anonymous"
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css')}}">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">INICIO</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+             <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                    <a class="nav-link active" aria-current="page" href="about">WEBS</a>
+                </li>
+              <li class="nav-item">
+                   <a class="nav-link" href="#">APPS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+      <h1>PROGRAMA DE PRUEBA</h1>
+</body>
+</html>
